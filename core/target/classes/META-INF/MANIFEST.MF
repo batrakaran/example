@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1548280804041
+Build-Jdk: 1.8.0_171
+Built-By: batra
+Bundle-Description: Maven Multimodule project for My AEM Project.
+Bundle-ManifestVersion: 2
+Bundle-Name: My AEM Project Bundle
+Bundle-SymbolicName: com.myco.example-project
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.myco.wcm.components.models;uses:="com.adobe.acs.comm
+ ons.genericlists,com.adobe.cq.sightly,org.apache.sling.api,org.apache.s
+ ling.models.annotations";version="0.0.1"
+Import-Package: com.adobe.acs.commons.genericlists;version="[1.0,2)",com
+ .adobe.cq.sightly;version="[3.2,4)",com.day.cq.wcm.api;version="[1.27,2
+ )",javax.annotation,org.apache.sling.api;version="[2.3,3)",org.apache.s
+ ling.api.resource;version="[2.10,3)",org.apache.sling.models.annotation
+ s;version="[1.5,2)",org.apache.sling.models.annotations.injectorspecifi
+ c;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Model-Packages: com.myco.wcm.components.models
+Tool: Bnd-3.3.0.201609221906

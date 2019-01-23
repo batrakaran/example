@@ -1,0 +1,19 @@
+<sly data-sly-use.listOptionModel="com.myco.wcm.components.models.ListOptions"></sly>
+
+<div
+        data-sly-test.text="${properties.social}">
+
+</div>
+
+<div>
+        Value  : ${properties.social}
+</div>
+
+List Options :
+
+<ul data-sly-list.myitem="${listOptionModel.listOptions}" data-sly-unwrap>
+
+    <li>${myitem.value}</li>
+
+</ul>
+
